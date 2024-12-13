@@ -1,0 +1,48 @@
+.add-to-cart {
+    background: linear-gradient(to right, #ff6f91, #ff8e92);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    /* border-radius: 12px; */
+    cursor: pointer;
+    margin:  auto;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 98%;
+  }
+  
+  .add-to-cart:hover {
+    background: linear-gradient(to right, #ff4f70, #ff6f91);
+  }
+  .tag-line{
+    display: flex;
+    flex-direction: row;
+    color: rgb(193, 191, 191);
+    justify-content: end;
+    margin-right: 2%;
+  }
+
+  .total{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    justify-content: center;
+
+  }
+  
+  .free-delivery {
+    color: #ff6f91;
+    font-weight: bold;
+    width: 50%;
+  }
+  
+  .total-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    width: 50%;
+    justify-content: end;
+  }

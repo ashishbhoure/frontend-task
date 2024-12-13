@@ -1,0 +1,51 @@
+.offer-card {
+    border: 2px solid #ff6f91;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 10px;
+    position: relative;
+    background-color: #fff;
+  }
+  
+  .most-popular {
+    border: 3px solid #ff6f91;
+    box-shadow: 0 0 10px rgba(255, 111, 145, 0.5);
+  }
+  
+  .offer-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .discount {
+    background-color: #ff6f91;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  
+  .price {
+    font-weight: bold;
+    margin: 5px 0;
+    color: black;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 14px;
+  }
+  .free-delivery {
+    color: #ff6f91;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .total-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: black;
+  }
+  
